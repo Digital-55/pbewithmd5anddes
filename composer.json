@@ -1,0 +1,42 @@
+{
+  "name": "digital55/pbewithmd5anddes",
+  "version": "1.0.0",
+  "description": "Implements PBEWithMD5AndDES algorithm in PHP",
+  "type": "library",
+  "license": "gpl-3.0",
+  "authors": [
+    {
+      "name": "Manuel Maldonado",
+      "email": "manuel.maldonado@digital55.com"
+    },
+    {
+      "name": "Jose Antonio Arenal",
+      "email": "joseantonio.arenal@digital55.com"
+    }
+  ],
+  "keywords": [
+    "PBEWithMD5AndDES",
+    "md5",
+    "des",
+    "des-cbc",
+    "PKCS",
+    "PKCS5",
+    "BasicTextEncryptor",
+    "JASYPT",
+    "PKCS5Padding"
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-mcrypt": "*",
+    "ext-openssl": "*",
+    "ext-intl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Digital55\\": "src/Digital55"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
